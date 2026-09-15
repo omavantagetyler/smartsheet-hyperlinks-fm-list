@@ -24,8 +24,8 @@ def run():
     # Map column headers to IDs
     col_map = {col.title: col.id for col in sheet.columns}
 
-    # Column names (including the sacred trailing space)
-    WO_COL_NAME = "Work Order No. "
+    # Column names
+    WO_COL_NAME = "Work Order #"
     OMA_COL_NAME = "OMA CX#"
 
     if WO_COL_NAME not in col_map or OMA_COL_NAME not in col_map:
