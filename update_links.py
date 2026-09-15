@@ -55,7 +55,7 @@ def run():
         # Check Condition 1: OMA CX# is NOT blank (not None and not empty/whitespace string)
         oma_has_value = oma_val is not None and str(oma_val).strip() != ""
 
-        # Check Condition 2: Work Order No. HAS a value to append
+        # Check Condition 2: Work Order # HAS a value to append
         wo_has_value = wo_val is not None and str(wo_val).strip() != ""
 
         if oma_has_value and wo_has_value:
